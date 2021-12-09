@@ -3,7 +3,7 @@ import { Person } from "./components/Person";
 import { ClickCounter } from "./components/ClickCounter";
 // import { ErrorBoundary } from "./components/ErrorBoundary";
 import { ErrorBoundary } from "react-error-boundary";
-import { Fallback } from "./components/Fallback";
+import { Fallback } from "./components/globalErrorHandler/Fallback";
 
 function App() {
   const person = {
