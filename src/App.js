@@ -1,17 +1,21 @@
-import './App.css';
-import { Person } from './components/Person';
-import { ClickCounter } from './components/ClickCounter';
+import "./App.css";
+import { Person } from "./components/Person";
+import { ClickCounter } from "./components/ClickCounter";
+import { ErrorBoundary } from "./components/ErrorBoundary";
 
 function App() {
-  const person={
-    firstName:'Rajibul',
-    lastName:'Hasan'
-  }
+  const person = {
+    firstName: "Rajibul",
+    lastName: "Hasan",
+  };
   return (
     <div className="App">
-      <h1>This is error Handler</h1>
-      <Person person={person}/>
-      <ClickCounter/>
+      <ErrorBoundary>
+        <h1>This is error Handler</h1>
+        <Person person={person} />
+        <Person person={{}} />
+        <ClickCounter />
+      </ErrorBoundary>
     </div>
   );
 }
