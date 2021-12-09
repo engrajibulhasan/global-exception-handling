@@ -1,3 +1,38 @@
-body{
-    background-color: red;
+.code-error-area {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.code-error-area img{
+    width:200px
+}
+.code-error-area h1 {
+    margin: 0;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: tomato;
+    font-size: 2rem;
+}
+.code-error-area p {
+    margin: 5px;
+    color: rgba(0,0,0,0.5);
+    font-weight: 1rem;
+    letter-spacing: 4px;
+    background-color: rgba(0,0,0,0.15);
+    padding: 3px 8px;
+}
+.code-error-area a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(114 196 114);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: 500ms;
+}
+.code-error-area a:hover{
+    background-color: rgb(56, 148, 56);
 }

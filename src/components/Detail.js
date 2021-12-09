@@ -7,7 +7,7 @@ function Detail() {
       
   };
   return <div>
-      <h1>Headline is {detail.name.hello}</h1>
+      <h1>Headline is : </h1>
       <p>{detail.detail}</p>
   </div>;
 }

@@ -15,7 +15,7 @@ function App() {
   }
   return (
     <div className="App">
-      {/* Component Error Handling using ErrorBoundary Package */}
+      {/* Component Error Handling using ErrorBoundary */}
       <ErrorBoundary FallbackComponent={Fallback} onError={errorHandler}>
         <h1>This is error Handler</h1>
         <Person person={person} />
