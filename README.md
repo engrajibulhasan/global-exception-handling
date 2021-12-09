@@ -1,3 +1,3 @@
-# Handling Global Exceptions/Errors
+# Handling React Global Exceptions/Errors
 
 
