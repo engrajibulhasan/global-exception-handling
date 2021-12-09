@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Detail from './Detail';
 
 export const ClickCounter=()=> {
     const [count,setCount]=useState(0);
@@ -20,6 +21,7 @@ export const ClickCounter=()=> {
     return (
         <div>
             <button onClick={handleClick}>count {count}</button>
+            <Detail/>
         </div>
         
     )
