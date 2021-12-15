@@ -8,7 +8,7 @@ import { Fallback } from "./components/globalErrorHandler/Fallback";
 function App() {
   const person = {
     firstName: "Rajibul",
-    lastName: "Hasan",
+    lastName: "Hasan Rayhan",
   };
   const errorHandler=(error,errorInfo)=>{
     console.log('Logging',error,errorInfo)
