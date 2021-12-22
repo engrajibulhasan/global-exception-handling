@@ -5,7 +5,7 @@ import { ClickCounter } from "./components/ClickCounter";
 import { ErrorBoundary } from "react-error-boundary";
 import { Fallback } from "./components/globalErrorHandler/Fallback";
 
-function App() {
+export const  App=()=> {
   const person = {
     firstName: "Rajibul",
     lastName: "Hasan Rayhan",
@@ -24,6 +24,5 @@ function App() {
       </ErrorBoundary>
     </div>
   );
-}
+  }
 
-export default App;
