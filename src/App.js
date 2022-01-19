@@ -11,7 +11,7 @@ export const  App=()=> {
     lastName: "Hasan Rayhan",
   };
   const errorHandler=(error,errorInfo)=>{
-    console.log('Logging',error,errorInfo)
+    console.log('Logging -',error,errorInfo)
   }
   return (
     <div className="App">
